@@ -12,7 +12,7 @@ with st.form(key='input_form'):
 
 # Function to send data to Make webhook
 def send_to_make_webhook(company_name, company_website):
-    webhook_url = "https://hook.us2.make.com/i4lg6bgna49w8m99ag8e7ezs6vac3csa"  # Replace with your Make webhook URL
+    webhook_url = "https://hook.us2.make.com/lqbccymfrk0d1o0qx2uom2rdb9hq4xuf"  # Replace with your Make webhook URL
     payload = {
         "company_name": company_name,
         "company_website": company_website
